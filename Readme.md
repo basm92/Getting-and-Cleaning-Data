@@ -1,17 +1,19 @@
 ---
 title: "Getting and Cleaning Data Course Project"
 output: html_notebook
+editor_options: 
+  chunk_output_type: inline
 ---
-
-This is a readme file for my course project for 'Getting and Cleaning Data' on Coursera. 
 
 ## Course Project
 
+This is a readme file for my course project for 'Getting and Cleaning Data' on Coursera. This repository contains all unzipped files in the appropriate folders, and the scripts necessary to do the analysis and extract the tidy data file. 
+
 ### Downloading the data and executing the script
 
-First, 
+First, we will download the necessary data on your local pc. 
 
-Run the following chunk of code
+Run the following chunk of code:
 
 ```{r}
 download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", destfile = "data.zip")
