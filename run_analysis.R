@@ -69,4 +69,4 @@ for (s in 1:30) {
 
 #Column names and write
 colnames(b) <- c(colnames(alltogether[c(1:68)]))
-write.table(b, "data_set_averages.txt")
+write.table(b, "data_set_averages.txt", row.name=FALSE)
